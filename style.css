@@ -30,7 +30,7 @@ body{
 h1{
     font-size: 36px;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .input-container{
@@ -49,12 +49,12 @@ h1{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     padding: 20px 45px 20px 20px;
 }
 
 .input-container input::placeholder{
-    color: #fff;
+    color: #000;
 }
 
 .input-container img{
@@ -67,7 +67,7 @@ h1{
 .input-container a{
     font-size: 16px;
     margin-top: 5px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h1{
     background-color: rgb(84, 169, 172);
     border: none;
     border-radius: 10px;
-    color: #fff;
+    color: #000;
     font-weight: 500;
     margin-top: 20px;
     cursor: pointer;
@@ -91,4 +91,18 @@ h1{
 
 .submit-button:hover{
     background-color: rgba(49, 173, 178, 0.656);
+}
+
+.register-link p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.register-link a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
 }
