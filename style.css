@@ -56,3 +56,21 @@ h1{
 .input-container input::placeholder{
     color: #fff;
 }
+
+.input-container img{
+    position: absolute;
+    right: 24px;
+    margin-top: 5px;
+    top: 20%;
+}
+
+.input-container a{
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input-container a:hover{
+    text-decoration: underline;
+}
