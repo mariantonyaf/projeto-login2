@@ -21,7 +21,7 @@ body{
 .container{
     width: 420px;
     background: transparent;
-    border: 2px solid #515151;
+    border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 30px 40px;
@@ -92,6 +92,11 @@ h1{
 
 .submit-button:hover{
     background-color: rgba(49, 173, 178, 0.656);
+}
+
+.register-link{
+    text-align: center;
+    margin: 20px 0;
 }
 
 .register-link p{
